@@ -25,12 +25,11 @@ Pretrained model should be downloaded if you click the name of Model.
 
 | Model             | Acc.        |
 | ----------------- | ----------- |
-| [ResNet20]()          | 91.48     |
-| [ResNet32]()          | 91.65%      |
-| [ResNet44]()         | 91.68%      |
-| [ResNet56]()          | 91.54%      |
-| [Plain20]()          | 90.3%      |
-| [Plain32]()         | 89.38%      |
+| [ResNet110]()          | 91.48%     |
+| [ResNet164]()          | 91.65%      |
+| [ResNetV2-110]()         | 91.68%      |
+| [ResNetV2-164]()          | 91.54%      |
+
 
 ## Plot
 Plots are in the plots folder.
