@@ -25,7 +25,7 @@ Pretrained model should be downloaded if you click the name of Model.
 
 | Model             | Acc.        |
 | ----------------- | ----------- |
-| [ResNet20]()          | 90.94%      |
+| [ResNet20]()          | 91.48     |
 | [ResNet32]()          | 91.65%      |
 | [ResNet44]()         | 91.68%      |
 | [ResNet56]()          | 91.54%      |
