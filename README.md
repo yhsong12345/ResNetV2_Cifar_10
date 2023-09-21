@@ -26,7 +26,7 @@ Pretrained model should be downloaded if you click the name of Model.
 | Model             | Acc.        |Param.        |
 | ----------------- | ----------- |----------|
 | [ResNet110]()          | 91.48%     |    1.7M      |
-| [ResNet164]()          | 91.65%      |          |
+| [ResNet164]()          | 91.65%      |     1.7M     |
 | [ResNetV2-110]()         | 91.68%      |        |
 | [ResNetV2-164]()          | 91.54%      |         |
  
