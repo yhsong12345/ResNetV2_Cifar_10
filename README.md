@@ -28,7 +28,7 @@ Pretrained model should be downloaded if you click the name of Model.
 | [ResNet20]()          | 91.48%     |    0.27M      |
 | [ResNet32]()          | 92.64%      |     0.5M     |
 | [ResNetV2-20]()         | 91.13%      |     0.27M   |
-| [ResNetV2-164]()          | 91.54%      |   0.5M      |
+| [ResNetV2-32]()          | 92.95%      |   0.5M      |
  
 
 ## Plot
