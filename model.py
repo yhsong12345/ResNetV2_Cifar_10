@@ -11,18 +11,10 @@ def SelectModel(m):
         return ResNet(BasicBlock, [3, 3, 3])
     elif m == 'Resnet32':
         return ResNet(BasicBlock, [5, 5, 5])
-    elif m == 'Resnet44':
-        return ResNet(BasicBlock, [7, 7, 7])
-    elif m == 'Resnet56':
-        return ResNet(BasicBlock, [9, 9, 9])
-    elif m == 'Resnet110':
-        return ResNet(BasicBlock, [18, 18, 18])
-    elif m == 'Resnet164':
-        return ResNet(Bottleneck, [18, 18, 18])
-    elif m == 'ResnetV2-110':
-        return ResNet(PreActBasicBlock, [18, 18, 18])
-    elif m == 'ResnetV2-164':
-        return ResNet(PreActBottleneck, [18, 18, 18])
+    elif m == 'ResnetV2-20':
+        return ResNet(PreActBasicBlock, [3, 3, 3])
+    elif m == 'ResnetV2-32':
+        return ResNet(PreActBottleneck, [5, 5, 5])
     
 
 
