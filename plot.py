@@ -37,7 +37,8 @@ for i in range(len(m)):
     vl.append(np.array(valid_loss))
 
 
-plt.figure(figsize=(10,10))
+plt.figure(figsize=(25,15))
+plt.subplot(1, 2, 1)
 
 
 for i in range(len(m)):
@@ -50,10 +51,10 @@ plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
 plt.title('Train Loss')
-plt.savefig(f'./plots/Train_Loss{m}')
 
 
-plt.figure(figsize=(10,10))
+
+plt.subplot(1, 2, 2)
 
 
 for i in range(len(m)):
@@ -66,13 +67,13 @@ plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
 plt.legend()
 plt.title('Train Accuracy')
-plt.savefig(f'./plots/Train_Accuracy{m}')
+plt.savefig(f'./plots/Train{m}')
 
 
 
 
-plt.figure(figsize=(10,10))
-
+plt.figure(figsize=(25,15))
+plt.subplot(1, 2, 1)
 
 for i in range(len(m)):
     col = (np.random.random(), np.random.random(), np.random.random())
@@ -84,11 +85,11 @@ plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
 plt.legend()
 plt.title('Test Accuracy')
-plt.savefig(f'./plots/Test_Accuracy{m}')
 
 
 
-plt.figure(figsize=(10,10))
+
+plt.subplot(1, 2, 2)
 
 
 for i in range(len(m)):
@@ -101,7 +102,7 @@ plt.xlabel('Epochs')
 plt.ylabel('Loss')
 plt.legend()
 plt.title('Test Loss')
-plt.savefig(f'./plots/Test_Loss{m}')
+plt.savefig(f'./plots/Test{m}')
 
 
 print('PLOTTING COMPLETE')
